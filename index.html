@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUOTE GENERATION</title>
+	<meta charset="utf-8">
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<style type="text/css">
+body
+{
+	/*background-color: black;*/
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWefVs8ixKuwcWPxJQ6kFAzV_vj6AIHMvPHpufIOYAWa8gNGiM");
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+#quoteDisplay
+{
+	color: white;
+	font-size: 180%;
+	font-family: "Lucida Console";
+	font-style: italic;
+	text-align: center;
+	width: 20%;
+	margin: auto 30% auto 39%;
+	background-color: black;
+	background-image: url("http://www.tokkoro.com/picsup/3000383-background_blur_blurred_green_nature_tree.jpg");/*
+	background-repeat:repeat-y; 
+	/*background-size: cover;*/
+	border-radius: 20px;
+	border-color: white;
+	padding: 3%;
+
+}
+#p
+{
+	color: white;
+	font-size: 160%;
+	font-family: Futura-Medium;
+	text-align: center;
+	margin: auto 30% auto 30%;
+}
+h1
+{
+	text-align: center;
+	font-family: Futura-Medium;
+    color: #fff;
+    /*font-weight: 500;*/
+    line-height: 1.1;
+    color: #fff;
+}
+
+.btn-dark
+{
+  margin: auto 30% auto 40%;
+  font-family:Futura-Medium;
+ 
+}
+.navbar-expand
+{
+  color: gray;
+}
+</style>
+</head>
+<body>
+<nav class=" navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Meraki</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="quotesgrid.html">My Quotes <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav> 
+<h1>Quote generator</h1>
+<br>
+<p id="p">Feeling low? We’ve all had bad days and sad days, and while it’s tempting to crawl under a blanket and stay there when you’re feeling low, that doesn’t really help.Enrich your mind by unlimited inspirational quotes!!</p>
+<br><br><br>
+<button type="button" class="btn btn-dark btn-lg" onclick="autoquote()">QUOTE FOR THE DAY</button>
+ <br><br><br>
+<!-- <div class="button-wrapper">
+<div class="btn btn-default btn-generate">
+<div class="btn-background"></div>
+<div class="btn-text" onclick="autoquote()">Generate <span class="glyphicon glyphicon-lg glyphicon-repeat"></span></div>
+<div class="btn-text-loading" style="display: none;">Loading...</div>
+</div>
+</div> -->
+<div id="quoteDisplay">
+</div>
+</body>
+</html>

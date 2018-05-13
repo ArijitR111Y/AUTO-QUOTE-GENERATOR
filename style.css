@@ -1,0 +1,41 @@
+/*Quotes are multiple strings that need to be stored in an array.
+Every time the button gets pressed, a random whole number needs to be generated.
+The number will be used as a representation of the array index number for the quote array.
+Once we retrieve the randomly picked quote from the array using our randomly generated whole number, we will place it to the HTML document.*/
+body
+{
+	background-color: black;
+}
+#quoteDisplay
+{
+	color: white;
+	font-size: 180%;
+	font-family: "Lucida Console";
+	text-align: center;
+	width: 20%;
+	margin: auto 30% auto 37%;
+	background-color: gray;
+	border-radius: 20px;
+	border-color: white;
+	padding: 3%;
+
+}
+#p
+{
+	color: #990000;
+	font-size: 180%;
+	font-family:"Georgia";
+	text-align: center;
+}
+h1
+{
+	text-align: center;
+	color: white;
+}
+.btn btn-primary
+{
+  margin: 2% 40% auto 42%;
+  font-family:"Georgia";
+  background-color: gray;
+
+}
